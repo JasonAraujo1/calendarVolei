@@ -1,8 +1,21 @@
-# React + Vite
+# Vôlei Quadras - Sistema de Gerenciamento e Locação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Vôlei Quadras** é uma plataforma para gerenciamento e locação de quadras de vôlei. A aplicação permite que administradores gerenciem horários de reserva, visualizem a disponibilidade das quadras e que os usuários reservem quadras para treinos ou jogos de forma simples e eficiente.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Reserva de Quadras**: Usuários podem verificar a disponibilidade e reservar quadras.
+- **Gerenciamento de Quadras**: Administradores podem adicionar, editar e excluir quadras.
+- **Calendário de Reservas**: Visualize todas as reservas de forma organizada.
+
+## Tecnologias Usadas
+
+- **Frontend**: React, Chakra UI, React Router, Styled-Components, Tailwind CSS
+- **Backend**: Mocs
+
+
+
+## Licença
+
+Este projeto é licenciado sob a Licença MIT - consulte o [arquivo LICENSE](LICENSE) para mais detalhes.
+
