@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import SearchBar from '../../../components/SearchBar/SearchBar';
+import SearchBar from "../../../components/SearchBar/index";
+
 
 function LayoutMaps() {
   return (
@@ -12,7 +13,7 @@ function LayoutMaps() {
      
       
       <div className=" rounded-2xl fixed mt-10 left-0 right-0 m-11 ">
-				<SearchBar className="shadow-[0 1px 6px rgb(32 33 36 / 28%);] " />
+				<SearchBar className="shadow-[0 1px 6px rgb(32 33 36 / 28%);] " /> 
 			</div>
      
     </>

@@ -17,30 +17,35 @@ import CourtSelected from "./Pages/Map/CourtSelected";
 import Adm from "./Pages/Adm/Adm";
 import Register from "./Pages/Register/RegisterUser/Register";
 import ApiMapSearchPlace from "./components/APImap/ApiMapSearchPlace";
+import Quadras from "./Pages/Quadras";
+import Categoria from "./Pages/Categoria";
 
 export default function App() {
 	return (
 		<Routes>
 			<Route path="/" element={<Layout />}>
-				<Route path="/Home" element={<Home />} />
+				<Route path="/home" element={<Home />} />
 			</Route>
 			<Route path="/" element={<LayoutDetails />}>
-				<Route path="/SelectDateHour" element={<SelectDateHour />} />
-				<Route path="/ChooseCourt" element={<ChooseCourt />} />
-				<Route path="/Payment" element={<Payment />} />
+				<Route path="/selectDateHour" element={<SelectDateHour />} />
+				<Route path="/chooseCourt" element={<ChooseCourt />} />
+				<Route path="/payment" element={<Payment />} />
 			</Route>
 			<Route path="/" element={<LayoutMaps />}>
-				<Route path="/SearchMap" element={<SearchMap />} />
-				<Route path="/CourtSelected" element={<CourtSelected />} />
+				<Route path="/searchMap" element={<SearchMap />} />
+				<Route path="/courtSelected" element={<CourtSelected />} />
 			</Route>
 			<Route index element={<Login />} />
-			<Route path="/Register" element={<Register />} />
-			<Route path="/LoginUser" element={<LoginUser />} />
-			<Route path="/Details" element={<Details />} />
+			<Route path="/register" element={<Register />} />
+			<Route path="/loginUser" element={<LoginUser />} />
+			<Route path="/details" element={<Details />} />
 			<Route path="/*" element={<NotFound />} />
 
-			<Route path="/Adm" element={<Adm />} />
-			<Route path="/APIMapSearchPlace" element={<ApiMapSearchPlace />} />
+			<Route path="/adm" element={<Adm />} />
+			<Route path="/map" element={<ApiMapSearchPlace />} />
+			<Route path="/quadras" element={<Quadras />} />
+			<Route path="/categoria/:tipo" element={<Categoria />} />
+			
 		</Routes>
 	);
 }

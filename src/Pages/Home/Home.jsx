@@ -1,8 +1,8 @@
 import React from "react";
-import SearchBar from "../../components/SearchBar/SearchBar";
 import Caroulsel from "../../components/Caroulsel/Caroulsel";
 import { quadras } from "../../Data/quadras";
 import { useState } from "react";
+import SearchBar from "../../components/SearchBar/index";
 
 
 function Home() {
@@ -28,33 +28,33 @@ function Home() {
 			</div>
 			<div className=" justify-center items-center ">
 			
-					<SearchBar  />
+					<SearchBar />
 				
 			</div>
 
-			<div className="flex justify-between items-center">
+			<div className="flex justify-between items-center w">
 				<h3 className="font-semibold text-violet-900 text-lg">
 					Quadras populares
 				</h3>
 				<p className="text-gray-400 font-semibold text-sm">Ver todos</p>
 			</div>
-			<div className="flex gap-3 ">
+			<div className="flex gap-3 justify-between">
 				<button
 					type="button"
-					className=" text-sm bg-gray text-gray-400 rounded-2xl px-3 py-3 font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
+					className=" text-sm bg-gray text-gray-400 rounded-2xl px-4 py-3 font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
 					
 				>
 					Mais procurada
 				</button>
 				<button
 					type="button"
-					className="text-sm bg-gray text-gray-400 rounded-2xl px-3 py-3  font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
+					className="text-sm bg-gray text-gray-400 rounded-2xl px-4 py-3  font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
 				>
 					Próximas
 				</button>
 				<button
 					type="button"
-					className="text-sm bg-gray text-gray-400 rounded-2xl px-3 py-3  font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
+					className="text-sm bg-gray text-gray-400 rounded-2xl px-4 py-3  font-medium hover:text-white hover:bg-violet-900 transition duration-300 ease-in-out"
 				>
 					Últimas
 				</button>

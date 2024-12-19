@@ -1,6 +1,7 @@
 import React from "react";
-import SearchBar from "../../components/SearchBar/SearchBar";
 import AdmTable from "../../components/AdmTable/AdmTable";
+import SearchBar from "../../components/SearchBar/index";
+
 
 function Adm() {
 	return (
@@ -23,7 +24,7 @@ function Adm() {
 						className="rounded-full size-10  object-cover "
 					/>
 				</div>
-				<SearchBar />
+				 <SearchBar /> 
                
 				<div className="flex  flex-col">
 					<h3 className="font-semibold text-violet-900 text-lg flex-wrap">
