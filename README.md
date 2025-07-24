@@ -1,21 +1,47 @@
-# Vôlei Quadras - Sistema de Gerenciamento e Locação
+# CalendarVolei
 
-**Vôlei Quadras** é uma plataforma para gerenciamento e locação de quadras de vôlei. A aplicação permite que administradores gerenciem horários de reserva, visualizem a disponibilidade das quadras e que os usuários reservem quadras para treinos ou jogos de forma simples e eficiente.
+Organize seus jogos de vôlei com facilidade e eficiência.
 
-## Funcionalidades
+## Resultado
+Tenha controle total sobre horários, participantes e locais dos jogos.
 
-- **Reserva de Quadras**: Usuários podem verificar a disponibilidade e reservar quadras.
-- **Gerenciamento de Quadras**: Administradores podem adicionar, editar e excluir quadras.
-- **Calendário de Reservas**: Visualize todas as reservas de forma organizada.
+## Processo de Criação e Estruturação do Código
+O desenvolvimento do CalendarVolei foi cuidadosamente planejado para garantir uma experiência intuitiva e eficiente. A estrutura do código foi dividida em módulos, facilitando a manutenção e evolução da aplicação. Utilizei boas práticas de programação, como separação de responsabilidades, componentes reutilizáveis e integração com bibliotecas modernas para o gerenciamento de estados e rotas.
 
-## Tecnologias Usadas
+O backend foi projetado para armazenar informações de partidas, participantes e notificações, garantindo segurança e escalabilidade. O frontend foi desenvolvido com foco na usabilidade, proporcionando uma navegação fluida e responsiva.
 
-- **Frontend**: React, Chakra UI, React Router, Styled-Components, Tailwind CSS
-- **Backend**: Mocs
+## Design da Aplicação
+Todo o design da aplicação foi criado por mim, priorizando uma interface amigável, visualmente agradável e adaptada para diferentes dispositivos. As cores, ícones e elementos visuais foram escolhidos para facilitar o uso e tornar a experiência mais envolvente.
 
+## Atividade
+Cadastro de partidas e eventos de vôlei.
 
+## Atividade com ferramenta
+Utilize o calendário interativo para agendar e visualizar partidas.
 
-## Licença
+## Atividade
+Convide amigos e gerencie a lista de participantes.
 
-Este projeto é licenciado sob a Licença MIT - consulte o [arquivo LICENSE](LICENSE) para mais detalhes.
+## Resultado
+Evite conflitos de horários e garanta a presença dos jogadores.
 
+## Atividade com ferramenta
+Receba notificações automáticas sobre alterações e lembretes dos jogos.
+
+## Atividade
+Acompanhe estatísticas e histórico dos jogos realizados.
+
+## Resultado
+Melhore a organização e aumente a participação nos eventos.
+
+## Atividade com ferramenta
+Exportação de dados e integração com outras plataformas de calendário.
+
+## Atividade
+Personalize eventos conforme suas necessidades.
+
+## Resultado
+Transforme a gestão dos seus jogos de vôlei em uma experiência simples e produtiva.
+
+## Atividade com ferramenta
+Acesse de qualquer dispositivo com interface responsiva e intuitiva.
